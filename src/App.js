@@ -19,7 +19,7 @@ function App() {
         <Navbar setCategory={setCategory}/>
         
        <Routes>
-            <Route path="/general"  element={<Home/>}></Route>
+            <Route path="/"  element={<Home/>}></Route>
             <Route path='/general'  element={<General category={category} />}></Route>
             <Route path='/business' element={<General category={category} />}></Route>
             <Route path='/sports' element={<General category={category} />}></Route>
