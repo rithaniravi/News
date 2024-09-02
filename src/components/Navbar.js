@@ -8,7 +8,7 @@ const Navbar=({setCategory})=>{
         <>
         <nav className="navbar navbar-expand-sm bg-secondary mx-1 rounded-2 fixed-top">
         <div className="container-fluid">
-          <Link to ='/general' style={{textDecoration:"none"}}><a class="navbar-brand" href="/"><span className="h3 bg-white text-black rounded-3 p-1">
+          <Link to ='/' style={{textDecoration:"none"}}><a class="navbar-brand" href="/"><span className="h3 bg-white text-black rounded-3 p-1">
             News<span className="text-danger">Nexa</span></span></a></Link>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
           <span class="navbar-toggler-icon"></span>
